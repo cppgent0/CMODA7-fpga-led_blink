@@ -1,5 +1,5 @@
 # CMODA7-fpga-led_blink
-CMOD A7 FPGA blink an LED based on the system clock
+CMOD A7 FPGA blink an LED based on the system clock, speed up or slow down the blinking by pressing buttons
 
 ## Prerequisites
 
@@ -49,6 +49,10 @@ CMOD A7 FPGA blink an LED based on the system clock
   * click "Program"
 
 ## To test
-* the LD1 should blink at around once per second
+* the LED1 should initially blink around twice per second
+* press and hold BTN0 to speed up the blinking
+* press and hold BTN1 to slow down the blinking
+* Note the button pushes are very sensitive!
+
      
   
